@@ -1,0 +1,10 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "A simple to-do app",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^1.8.0",
+    "lodash": "^4.17.15"
+  }
+}

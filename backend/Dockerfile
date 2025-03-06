@@ -12,4 +12,4 @@ COPY ./app /app
 EXPOSE 8000
 
 # If running behind a proxy like Nginx or Traefik add --proxy-headers
-CMD ["fastapi", "run", "main.py", "--port", "8000"]
+CMD ["fastapi", "run", "main.py", "--port", "8000", "--proxy-headers"]
